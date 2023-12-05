@@ -1,10 +1,10 @@
-package ru.job4j.сheckstyle;
+package checkstyle;
 
 public class Broken {
-    String name;
-    public  String surname;
     private int sizeOfEmpty = 10;
+    public String surname;
     public static String newValue = "";
+    String name;
 
     void echo() {
     }
@@ -15,9 +15,9 @@ public class Broken {
         }
     }
 
-    public void method(int a, int b, int c) {
+    void method(int a, int b, int c, int d, int e, int f, int g) {
     }
 
-    public void broken() {
+    void broken() {
     }
 }
