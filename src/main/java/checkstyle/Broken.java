@@ -2,22 +2,22 @@ package checkstyle;
 
 public class Broken {
     private int sizeOfEmpty = 10;
-    public String surname;
-    public static String newValue = "";
-    String name;
+    private String surname;
+    private String newValue = "";
+    private String name;
 
-    void echo() {
+    public Broken() {
     }
 
-    void media(Object obj) {
+    public void echo() {
+    }
+
+    public void media(Object obj) {
         if (obj != null) {
             System.out.println(obj);
         }
     }
 
-    void method(int a, int b, int c, int d, int e, int f, int g) {
-    }
-
-    void broken() {
+    public void method(int a, int b, int c, int d, int e, int f, int g) {
     }
 }
