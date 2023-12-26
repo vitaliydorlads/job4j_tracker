@@ -3,6 +3,10 @@ package ru.job4j.oop;
 public class Calculator {
     private static int x = 5;
 
+    public int multiply(int a) {
+        return x * a;
+    }
+
     public static int sum(int y) {
         return x + y;
     }
@@ -24,9 +28,9 @@ public class Calculator {
         System.out.println(result);
         Calculator calculator = new Calculator();
         System.out.println("sumAllOperation: " + calculator.sumAllOperation(1, 2, 3));
-        Calculator calculator1 = new Calculator();
-        System.out.println("divide: " + calculator1.divide(10));
+        System.out.println("divide: " + calculator.divide(10));
         System.out.println("sum: " + sum(2));
         System.out.println("minus: " + minus(10));
+        System.out.println("multiply: " + calculator.multiply(7));
     }
 }
