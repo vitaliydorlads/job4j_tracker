@@ -6,17 +6,17 @@ public class Max {
     }
 
     public static int max(int left, int right, int directly) {
-        return max(left, right) > directly ? max(left, right) : directly;
+        return max(max(left, right), directly);
     }
 
     public static int max(int left, int right, int directly, int back) {
-        return max(directly, back) > max(left, right) ? max(directly, back) : max(left, right);
+        return max(max(left, right, directly), back);
     }
 
     public static void main(String[] args) {
         int a = max(1, 2);
         int b = max(1, 2, 3);
-        int c = max(2, 2, 2, 1);
+        int c = max(2, 7, 2, 5);
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
