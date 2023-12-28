@@ -19,15 +19,13 @@ public class Calculator {
         return s / x;
     }
 
-    public int sumAllOperation(int a, int b, int c) {
-        return sum(a) + minus(b) + divide(c);
+    public int sumAllOperation(int sumAll) {
+        return sum(sumAll) + minus(sumAll) + divide(sumAll) + multiply(sumAll);
     }
 
     public static void main(String[] args) {
-        int result = Calculator.sum(10);
-        System.out.println(result);
         Calculator calculator = new Calculator();
-        System.out.println("sumAllOperation: " + calculator.sumAllOperation(1, 2, 3));
+        System.out.println("sumAllOperation: " + calculator.sumAllOperation(1));
         System.out.println("divide: " + calculator.divide(10));
         System.out.println("sum: " + sum(2));
         System.out.println("minus: " + minus(10));
