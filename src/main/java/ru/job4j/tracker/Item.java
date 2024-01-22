@@ -44,12 +44,4 @@ public class Item {
         this.created = created;
     }
 
-    public static class StartUI {
-        public static void main(String[] args) {
-            Item item = new Item();
-            DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd-MMMM-EEEE-yyyy HH:mm:ss");
-            String itemDateTimeFormatter = item.created.format(dateTimeFormatter);
-            System.out.println(itemDateTimeFormatter);
-        }
-    }
 }
