@@ -6,6 +6,6 @@ public class College {
         student.setFullName("Каруфин Виталий Александрович");
         student.setGroup("ЗПЭ - 462");
         student.setDateOfReceipt("13.02.2024");
-        System.out.println(student.getFullName() + "\nГруппа: " + student.getGroup() + "\nДата поступления: " + student.getDateOfReceipt());
+        System.out.println(student.getFullName() + System.lineSeparator() + "Группа: " + student.getGroup() + System.lineSeparator() + "Дата поступления: " + student.getDateOfReceipt());
     }
 }
