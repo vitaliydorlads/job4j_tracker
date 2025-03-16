@@ -20,7 +20,6 @@ public class Tracker {
                 break;
             }
         }
-
         return rsl;
     }
 }
