@@ -6,24 +6,21 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class TrackerTest {
     @Test
-    public void whenReplaceItemIsSuccessful() {
+    public void whenDeleteItemIsSuccessful() {
         Tracker tracker = new Tracker();
         Item item = new Item("Bug");
         tracker.add(item);
         int id = item.getId();
-        Item updateItem = new Item("Bug with description");
-        tracker.replace(id, updateItem);
-        assertThat(tracker.findById(id).getName()).isEqualTo("Bug with description");
+        tracker.delete(id);
+        assertThat(tracker.findById(id)).isNull();
     }
 
     @Test
-    public void whenReplaceItemIsNotSuccessful() {
+    public void whenDeleteItemIsNotSuccessful() {
         Tracker tracker = new Tracker();
         Item item = new Item("Bug");
         tracker.add(item);
-        Item updateItem = new Item("Bug with description");
-        boolean result = tracker.replace(1000, updateItem);
+        tracker.delete(1000);
         assertThat(tracker.findById(item.getId()).getName()).isEqualTo("Bug");
-        assertThat(result).isFalse();
     }
 }
