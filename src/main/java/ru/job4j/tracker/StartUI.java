@@ -19,15 +19,22 @@ public class StartUI extends Item {
             } else if (select == 6) {
                 run = false;
             }
+            if (select == 1) {
+                System.out.println("=== Вывод всех заявок ===");
+                Item[] items = tracker.findAll();
+                if (items.length > 0) {
+                    for (Item item : items) {
+                        System.out.println(item);
+                    }
+                } else {
+                    System.out.println("Хранилище еще не содержит заявок");
+                }
+            }
         }
     }
 
     private void showMenu() {
-        String[] menu = {
-                "Добавить новую заявку", "Показать все заявки", "Изменить заявку",
-                "Удалить заявку", "Показать заявку по id", "Показать заявки по имени",
-                "Завершить программу"
-        };
+        String[] menu = {"Добавить новую заявку", "Показать все заявки", "Изменить заявку", "Удалить заявку", "Показать заявку по id", "Показать заявки по имени", "Завершить программу"};
         System.out.println("Меню:");
         for (int i = 0; i < menu.length; i++) {
             System.out.println(i + ". " + menu[i]);
