@@ -85,7 +85,7 @@ public class StartUI extends Item {
         return items;
     }
 
-    private static void createItem(Input input, Tracker tracker) {
+    public static void createItem(Input input, Tracker tracker) {
         System.out.println("=== Создание новой заявки ===");
         String name = input.askStr("Введите имя: ");
         Item item = new Item(name);
