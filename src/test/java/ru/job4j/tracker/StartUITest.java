@@ -22,7 +22,7 @@ class StartUITest {
         Item item = new Item("new item");
         tracker.add(item);
         String[] answers = {
-                String.valueOf(item.getId()), // id сохраненной заявки в объект tracker.
+                String.valueOf(item.getId()),
                 "edited item"
         };
         StartUI.replaceItem(new MockInput(answers), tracker);
@@ -37,7 +37,7 @@ class StartUITest {
         tracker.add(item);
         String[] answers = {String.valueOf(item.getId())};
         StartUI.deleteItem(new MockInput(answers), tracker);
-        Item item1 = tracker.findById(item.getId());
-        assertThat(item1.getName()).isNull();
+        Item exp = tracker.findById(item.getId());
+        assertThat(exp).isNull();
     }
 }
