@@ -2,7 +2,7 @@ package ru.job4j.tracker;
 
 public class StartUI extends Item {
     public void init(Input input, Tracker tracker) {
-        boolean run = isRun();
+        boolean run = true;
         while (run) {
             showMenu();
             int select = input.askInt("Выбор: ");
@@ -91,11 +91,6 @@ public class StartUI extends Item {
         Item item = new Item(name);
         tracker.add(item);
         System.out.println("Добавленная заявка: " + item);
-    }
-
-    private static boolean isRun() {
-        boolean run = true;
-        return run;
     }
     
     private void showMenu() {
