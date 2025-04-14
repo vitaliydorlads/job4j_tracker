@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fde2e23f-ea7b-4756-99cd-308988f2a754" name="Changes" comment="12.1 Зависимость от System.out [#33568]" />
+    <list default="true" id="fde2e23f-ea7b-4756-99cd-308988f2a754" name="Changes" comment="12.1 Зависимость от System.out [#33568]">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/ConsoleInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/ConsoleInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/ConsoleOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/ConsoleOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/CreateAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/CreateAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/DeleteAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/DeleteAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/ExitAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/ExitAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/FindAllAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/FindAllAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/FindByIdAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/FindByIdAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/FindByNameAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/FindByNameAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/Output.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/Output.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/ReplaceAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/ReplaceAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/StartUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/StartUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/StubOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/StubOutput.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -209,102 +222,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1742069871644</updated>
-    </task>
-    <task id="LOCAL-00044" summary="2. Модель данных. [#174683 #480941]">
-      <option name="closed" value="true" />
-      <created>1743021456230</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1743021456230</updated>
-    </task>
-    <task id="LOCAL-00045" summary="3. Массивы и модели. [#174892 #480980]">
-      <option name="closed" value="true" />
-      <created>1743099979336</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1743099979336</updated>
-    </task>
-    <task id="LOCAL-00046" summary="3.1. Массив с пустыми ячейками [#176470 #482198]">
-      <option name="closed" value="true" />
-      <created>1743101812222</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1743101812222</updated>
-    </task>
-    <task id="LOCAL-00047" summary="3.2. Удаление моделей из массива. [#310016 #482212]">
-      <option name="closed" value="true" />
-      <created>1743112099798</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1743112099798</updated>
-    </task>
-    <task id="LOCAL-00048" summary="4. Сравнение моделей. Метод equals [#174893 #482362]">
-      <option name="closed" value="true" />
-      <created>1743188272322</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1743188272322</updated>
-    </task>
-    <task id="LOCAL-00049" summary="5. Tracker - хранилище [#396]">
-      <option name="closed" value="true" />
-      <created>1743195508112</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1743195508112</updated>
-    </task>
-    <task id="LOCAL-00050" summary="56. Метод замены заявки. Tracker.replace [#211748]">
-      <option name="closed" value="true" />
-      <created>1743279003518</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1743279003518</updated>
-    </task>
-    <task id="LOCAL-00051" summary="7. Метод удаления заявки Tracker.delete [#211749]">
-      <option name="closed" value="true" />
-      <created>1743283059099</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1743283059099</updated>
-    </task>
-    <task id="LOCAL-00052" summary="8. Что такое валидация? [#246864]">
-      <option name="closed" value="true" />
-      <created>1743347836056</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1743347836056</updated>
-    </task>
-    <task id="LOCAL-00053" summary="10. toString [#310018]">
-      <option name="closed" value="true" />
-      <created>1743352334154</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1743352334154</updated>
-    </task>
-    <task id="LOCAL-00054" summary="2.0. Чтение из консоли. Класс Scanner. [#179514]">
-      <option name="closed" value="true" />
-      <created>1743625467821</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1743625467821</updated>
-    </task>
-    <task id="LOCAL-00055" summary="2.1. Scanner и чтение числа из консоли. [#179518]">
-      <option name="closed" value="true" />
-      <created>1743631194553</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1743631194553</updated>
     </task>
     <task id="LOCAL-00056" summary="2.1. Scanner и чтение числа из консоли. [#179518]">
       <option name="closed" value="true" />
@@ -602,7 +519,103 @@
       <option name="project" value="LOCAL" />
       <updated>1744667544676</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="12.1 Зависимость от System.out [#33568]">
+      <option name="closed" value="true" />
+      <created>1744667966641</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1744667966641</updated>
+    </task>
+    <task id="LOCAL-00094" summary="12.1 Зависимость от System.out [#33568]">
+      <option name="closed" value="true" />
+      <created>1744668002998</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1744668002998</updated>
+    </task>
+    <task id="LOCAL-00095" summary="12.1 Зависимость от System.out [#33568]">
+      <option name="closed" value="true" />
+      <created>1744668026646</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1744668026646</updated>
+    </task>
+    <task id="LOCAL-00096" summary="12.1 Зависимость от System.out [#33568]">
+      <option name="closed" value="true" />
+      <created>1744668057815</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1744668057815</updated>
+    </task>
+    <task id="LOCAL-00097" summary="12.1 Зависимость от System.out [#33568]">
+      <option name="closed" value="true" />
+      <created>1744668076649</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1744668076649</updated>
+    </task>
+    <task id="LOCAL-00098" summary="12.1 Зависимость от System.out [#33568]">
+      <option name="closed" value="true" />
+      <created>1744668096591</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1744668096591</updated>
+    </task>
+    <task id="LOCAL-00099" summary="12.1 Зависимость от System.out [#33568]">
+      <option name="closed" value="true" />
+      <created>1744668110674</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1744668110674</updated>
+    </task>
+    <task id="LOCAL-00100" summary="12.1 Зависимость от System.out [#33568]">
+      <option name="closed" value="true" />
+      <created>1744668122716</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1744668122716</updated>
+    </task>
+    <task id="LOCAL-00101" summary="12.1 Зависимость от System.out [#33568]">
+      <option name="closed" value="true" />
+      <created>1744668135684</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1744668135684</updated>
+    </task>
+    <task id="LOCAL-00102" summary="12.1 Зависимость от System.out [#33568]">
+      <option name="closed" value="true" />
+      <created>1744668150633</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1744668150633</updated>
+    </task>
+    <task id="LOCAL-00103" summary="12.1 Зависимость от System.out [#33568]">
+      <option name="closed" value="true" />
+      <created>1744668164738</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1744668164738</updated>
+    </task>
+    <task id="LOCAL-00104" summary="12.1 Зависимость от System.out [#33568]">
+      <option name="closed" value="true" />
+      <created>1744668178393</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1744668178393</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
