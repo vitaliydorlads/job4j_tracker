@@ -20,8 +20,7 @@ public class FindAllAction implements UserAction {
                 System.out.println(item);
             }
         } else {
-            System.out.println("Хранилище еще не содержит заявок");
-        }
+            System.out.printl
         return true;
     }
 
