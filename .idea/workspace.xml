@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fde2e23f-ea7b-4756-99cd-308988f2a754" name="Changes" comment="12.1 Зависимость от System.out [#33568]">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="fde2e23f-ea7b-4756-99cd-308988f2a754" name="Changes" comment="12.1 Зависимость от System.out [#33568]" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -211,22 +209,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1742069871644</updated>
-    </task>
-    <task id="LOCAL-00041" summary="8. Date. Отображение даты. [#310017 #474691]">
-      <option name="closed" value="true" />
-      <created>1743012318202</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1743012318202</updated>
-    </task>
-    <task id="LOCAL-00042" summary="8. Date. Отображение даты. [#310017 #474691]">
-      <option name="closed" value="true" />
-      <created>1743014183378</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1743014183378</updated>
     </task>
     <task id="LOCAL-00043" summary="0. Что такое инкапсуляция. [#3818 #480937]">
       <option name="closed" value="true" />
@@ -604,7 +586,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744666663747</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="12.1 Зависимость от System.out [#33568]">
+      <option name="closed" value="true" />
+      <created>1744667146438</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1744667146438</updated>
+    </task>
+    <task id="LOCAL-00091" summary="12.1 Зависимость от System.out [#33568]">
+      <option name="closed" value="true" />
+      <created>1744667416087</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1744667416087</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
