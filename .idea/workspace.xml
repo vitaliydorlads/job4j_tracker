@@ -210,14 +210,6 @@
       <option name="presentableId" value="Default" />
       <updated>1742069871644</updated>
     </task>
-    <task id="LOCAL-00043" summary="0. Что такое инкапсуляция. [#3818 #480937]">
-      <option name="closed" value="true" />
-      <created>1743014205627</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1743014205627</updated>
-    </task>
     <task id="LOCAL-00044" summary="2. Модель данных. [#174683 #480941]">
       <option name="closed" value="true" />
       <created>1743021456230</created>
@@ -602,7 +594,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744667416087</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="12.1 Зависимость от System.out [#33568]">
+      <option name="closed" value="true" />
+      <created>1744667544676</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1744667544676</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
