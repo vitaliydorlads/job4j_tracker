@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fde2e23f-ea7b-4756-99cd-308988f2a754" name="Changes" comment="12.1 Зависимость от System.out [#33568]">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/ConsoleInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/ConsoleInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/ConsoleOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/ConsoleOutput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/CreateAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/CreateAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/DeleteAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/DeleteAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/ExitAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/ExitAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/FindAllAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/FindAllAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/FindByIdAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/FindByIdAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/FindByNameAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/FindByNameAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/Output.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/Output.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/ReplaceAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/ReplaceAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/StartUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/StartUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/StubOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/tracker/StubOutput.java" afterDir="false" />
-    </list>
+    <list default="true" id="fde2e23f-ea7b-4756-99cd-308988f2a754" name="Changes" comment="12.1 Зависимость от System.out [#33568]" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,14 +209,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1742069871644</updated>
-    </task>
-    <task id="LOCAL-00056" summary="2.1. Scanner и чтение числа из консоли. [#179518]">
-      <option name="closed" value="true" />
-      <created>1743688769925</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1743688769925</updated>
     </task>
     <task id="LOCAL-00057" summary="3.0. Реализация класса StartUI. Вывод меню [#500743]">
       <option name="closed" value="true" />
@@ -615,7 +594,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744668178393</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="12.1 Зависимость от System.out [#33568]">
+      <option name="closed" value="true" />
+      <created>1744669530966</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1744669530966</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
