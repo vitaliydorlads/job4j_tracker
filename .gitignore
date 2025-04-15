@@ -1,8 +1,7 @@
 .idea/
-/target/
-/.gitignore
-/checkstyle.xml
-/pom.xml
-/README.md
-/tracker.iml
+*.iml
+target/
 h*
+*.log
+.DS_Store
+Thumbs.db
