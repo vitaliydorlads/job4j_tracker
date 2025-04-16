@@ -14,19 +14,15 @@ public class FindAllAction implements UserAction {
 
     @Override
     public boolean execute(Input input, Tracker tracker) {
-        Item[] items = getItems(tracker);
+        output.println("=== Вывод всех заявок ===");
+        Item[] items = tracker.findAll();
         if (items.length > 0) {
             for (Item item : items) {
                 System.out.println(item);
             }
         } else {
-            System.out.println("Хранилище еще не содержит заявок");
+            output.println("Хранилище еще не содержит заявок");
         }
         return true;
-    }
-
-    private static Item[] getItems(Tracker tracker) {
-        System.out.println("=== Вывод всех заявок ===");
-        return tracker.findAll();
     }
 }
