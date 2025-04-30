@@ -65,6 +65,9 @@ public class PasswordValidator {
                 if (!Character.isLetterOrDigit(symbol)) {
                     hasSpecial = true;
                 }
+                if (hasUpCase && hasLowCase && hasDigit && hasSpecial) {
+                    break;
+                }
             }
             return new PasswordFeatures(hasUpCase, hasLowCase, hasDigit, hasSpecial, hasSubs);
         }
