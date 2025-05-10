@@ -1,7 +1,5 @@
 package ru.job4j.search;
 
-import java.util.Objects;
-
 public class Person {
     private String name;
     private String surname;
@@ -30,5 +28,4 @@ public class Person {
     public String getAddress() {
         return address;
     }
-
 }
