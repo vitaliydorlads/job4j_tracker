@@ -27,4 +27,5 @@ class PhoneDictionaryTest {
         ArrayList<Person> persons = phones.find("977889");
         assertThat(persons.isEmpty()).isTrue();
     }
+
 }
