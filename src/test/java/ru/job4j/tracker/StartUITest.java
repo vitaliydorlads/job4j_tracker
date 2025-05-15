@@ -7,19 +7,18 @@ import ru.job4j.input.MockInput;
 import ru.job4j.output.Output;
 import ru.job4j.output.StubOutput;
 
+import java.util.List;
+
 import static org.assertj.core.api.Assertions.*;
 
 class StartUITest {
     @Test
     void whenInvalidExit() {
         Output output = new StubOutput();
-        Input input = new MockInput(
-                new String[]{"10", "0"}
-        );
+        Input input = new MockInput(List.of("10", "0"));
         Tracker tracker = new Tracker();
-        UserAction[] actions = new UserAction[]{
-                new ExitAction(output)
-        };
+        List<UserAction> actions = List.of(
+                new ExitAction(output));
         new StartUI(output).init(input, tracker, actions);
         String ln = System.lineSeparator();
         assertThat(output.toString()).isEqualTo(
