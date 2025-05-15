@@ -1,19 +1,16 @@
 package ru.job4j.input;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class MockInput implements Input {
-    private List<String> answers;
+    private String[] answers;
     private int position = 0;
 
-    public MockInput(List<String> answers) {
+    public MockInput(String[] answers) {
         this.answers = answers;
     }
 
     @Override
     public String askStr(String question) {
-        return (String) answers.get(position++);
+        return answers[position++];
     }
 
     @Override

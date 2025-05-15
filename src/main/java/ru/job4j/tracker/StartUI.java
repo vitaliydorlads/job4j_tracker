@@ -7,7 +7,6 @@ import ru.job4j.input.ValidateInput;
 import ru.job4j.output.ConsoleOutput;
 import ru.job4j.output.Output;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class StartUI {
