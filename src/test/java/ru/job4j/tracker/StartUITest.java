@@ -15,8 +15,8 @@ class StartUITest {
     @Test
     void whenInvalidExit() {
         Output output = new StubOutput();
-        Input input = new MockInput(List.of("10", "0"));
         Tracker tracker = new Tracker();
+        Input input = new MockInput(List.of("10", "0"));
         List<UserAction> actions = List.of(
                 new ExitAction(output));
         new StartUI(output).init(input, tracker, actions);
