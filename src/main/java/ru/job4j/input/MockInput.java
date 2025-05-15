@@ -19,4 +19,5 @@ public class MockInput implements Input {
         public int askInt(String question) {
             return Integer.parseInt(askStr(question));
         }
+
 }
