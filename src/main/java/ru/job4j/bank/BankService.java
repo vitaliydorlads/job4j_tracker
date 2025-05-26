@@ -13,18 +13,15 @@ public class BankService {
     }
 
     public void deleteUser(String passport) {
-        User user = findByPassport(passport);
-        users.remove(user);
+        users.remove(new User(passport, ""));
     }
 
     public void addAccount(String passport, Account account) {
         User user = findByPassport(passport);
         if (user != null) {
             List<Account> accounts = users.get(user);
-            if (accounts != null) {
-                if (!accounts.contains(account)) {
-                    accounts.add(account);
-                }
+            if (!accounts.contains(account)) {
+                accounts.add(account);
             }
         }
     }
@@ -42,31 +39,26 @@ public class BankService {
         User user = findByPassport(passport);
         if (user != null) {
             List<Account> accounts = users.get(user);
-            if (accounts != null) {
-                for (Account account : accounts) {
-                    if (account.getRequisite().equals(requisite)) {
-                        return account;
-                    }
+            for (Account account : accounts) {
+                if (account.getRequisite().equals(requisite)) {
+                    return account;
                 }
             }
         }
-
         return null;
     }
 
     public boolean transferMoney(String sourcePassport, String sourceRequisite, String destinationPassport, String
             destinationRequisite, double amount) {
         boolean result = false;
-        User user = findByPassport(sourcePassport);
+
         Account requisite = findByRequisite(sourcePassport, sourceRequisite);
-        User destUser = findByPassport(destinationPassport);
+
         Account destRequisite = findByRequisite(destinationPassport, destinationRequisite);
-        if (user != null && requisite != null && destUser != null && destRequisite != null) {
-            if (user.getPassport().equals(sourcePassport) && requisite.getRequisite().equals(sourceRequisite) && requisite.getBalance() >= amount) {
-                requisite.setBalance(requisite.getBalance() - amount);
-                destRequisite.setBalance(destRequisite.getBalance() + amount);
-                result = true;
-            }
+        if (requisite != null && destRequisite != null && requisite.getBalance() >= amount) {
+            requisite.setBalance(requisite.getBalance() - amount);
+            destRequisite.setBalance(destRequisite.getBalance() + amount);
+            result = true;
         }
         return result;
     }
