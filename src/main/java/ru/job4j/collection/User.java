@@ -4,7 +4,6 @@ import java.util.Objects;
 
 public class User implements Comparable<User> {
     private String name;
-
     private int age;
 
     public User(String name, int age) {
