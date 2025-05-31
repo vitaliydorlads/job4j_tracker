@@ -59,4 +59,5 @@ class UserTest {
                 );
         assertThat(result).isLessThan(0);
     }
+
 }
