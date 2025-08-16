@@ -40,6 +40,5 @@ class DepartmentsDescTest {
                 "K2/SK1"
         );
         assertThat(result).isGreaterThan(0);
-
     }
 }
