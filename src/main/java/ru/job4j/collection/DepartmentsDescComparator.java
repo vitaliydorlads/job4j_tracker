@@ -14,5 +14,4 @@ public class DepartmentsDescComparator implements Comparator<String> {
         }
         return Comparator.<String>naturalOrder().compare(left, right);
     }
-
 }
