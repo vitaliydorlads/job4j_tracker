@@ -23,6 +23,7 @@ public class Departments {
         departments.sort(Comparator.naturalOrder());
     }
 
+
     public static void sortDesc(List<String> departments) {
      departments.sort(new DepartmentsDescComparator());
     }

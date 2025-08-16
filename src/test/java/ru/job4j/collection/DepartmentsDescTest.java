@@ -41,4 +41,5 @@ class DepartmentsDescTest {
         );
         assertThat(result).isGreaterThan(0);
     }
+
 }
