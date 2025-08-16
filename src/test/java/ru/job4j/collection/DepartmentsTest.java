@@ -145,5 +145,6 @@ class DepartmentsTest {
         );
         Departments.sortDesc(input);
         assertThat(input).containsSequence(expected);
+
     }
 }
