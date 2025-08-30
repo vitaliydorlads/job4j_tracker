@@ -41,9 +41,7 @@ public class AnalyzeByMap {
         for (Pupil index : pupils) {
             List<Subject> subjects = index.subjects();
             for (Subject subject : subjects) {
-                String key = subject.name();
-                int sum = subject.score();
-                map.put(key, map.getOrDefault(key, 0) + sum);
+                map.merge(subject.name(), subject.score(), Integer::sum);
             }
         }
         int pupil = pupils.size();
@@ -83,9 +81,7 @@ public class AnalyzeByMap {
         for (Pupil index : pupils) {
             List<Subject> subjects = index.subjects();
             for (Subject subject : subjects) {
-                String key = subject.name();
-                int sum = subject.score();
-                map.put(key, map.getOrDefault(key, 0) + sum);
+                map.merge(subject.name(), subject.score(), Integer::sum);
             }
         }
         for (Map.Entry<String, Integer> entry : map.entrySet()) {
